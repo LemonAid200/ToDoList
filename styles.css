@@ -3,6 +3,7 @@ body{
 }
 
 .header{
+    font-size: large;
     margin-top: 100px;
     box-shadow: 7px 7px aqua;
     border-radius: 5px;
@@ -13,8 +14,8 @@ body{
     margin: auto;   
     align-items: center;
     background: linear-gradient(to right, rgb(177, 146, 109) 50%, rgb(238, 177, 103) 50%);
-
 }
+
 .btnHeader{
     height: fit-content;
     width: 50%;
