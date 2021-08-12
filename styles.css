@@ -1,0 +1,49 @@
+body{
+    background-color: bisque;
+}
+
+.header{
+    box-shadow: 7px 7px aqua;
+    border-radius: 5px;
+    background-color: rgb(177, 146, 109);
+    display: flex;
+    width: 40%;
+    height: 40px;
+    margin: auto;   
+    align-items: center;
+    background: linear-gradient(to right, rgb(177, 146, 109) 50%, rgb(238, 177, 103) 50%);
+
+}
+.btnHeader{
+    height: fit-content;
+    width: 150px;
+    margin: auto;
+    background: none;
+    border: none;
+    font-size: auto;
+}
+
+.task{
+    background: rgb(189, 169, 145);
+    box-shadow: 7px 7px aqua;
+    padding-left: 3%;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    margin-top: 15px;
+    height: 40px;
+    font-size: x-large;
+    padding-right: 5px;
+    
+}
+
+.btnTask{
+    border-radius: 5px;
+    height: 70%;
+}
+
+.chkBox{
+    margin-left: auto;
+    margin-right: 3%;
+    margin-top: 3%;
+}
