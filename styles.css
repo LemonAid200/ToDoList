@@ -3,12 +3,13 @@ body{
 }
 
 .header{
+    margin-top: 100px;
     box-shadow: 7px 7px aqua;
     border-radius: 5px;
     background-color: rgb(177, 146, 109);
     display: flex;
-    width: 40%;
-    height: 40px;
+    width: 200px;
+    height: 10%;
     margin: auto;   
     align-items: center;
     background: linear-gradient(to right, rgb(177, 146, 109) 50%, rgb(238, 177, 103) 50%);
@@ -16,8 +17,7 @@ body{
 }
 .btnHeader{
     height: fit-content;
-    width: 150px;
-    margin: auto;
+    width: 50%;
     background: none;
     border: none;
     font-size: auto;
@@ -27,8 +27,8 @@ body{
     background: rgb(189, 169, 145);
     box-shadow: 7px 7px aqua;
     padding-left: 3%;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin: auto;
+    width: 500px;
     display: flex;
     margin-top: 15px;
     height: 40px;
@@ -45,5 +45,5 @@ body{
 .chkBox{
     margin-left: auto;
     margin-right: 3px;
-    margin-top: 3px;
+    margin-top: 8px;
 }
