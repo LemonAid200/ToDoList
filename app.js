@@ -3,7 +3,7 @@ Vue.createApp({
         return{
             valueInput: '',
             needDoList: [],
-            newOrDone: false
+            newOrDone: true
 
         };
     },
