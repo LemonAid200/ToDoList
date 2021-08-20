@@ -3,9 +3,8 @@ body{
 }
 
 .header{
-    font-size: large;
     margin-top: 100px;
-    box-shadow: 7px 7px aqua;
+    box-shadow: 7px 7px rgb(81, 85, 85);
     border-radius: 5px;
     background-color: rgb(177, 146, 109);
     display: flex;
@@ -14,8 +13,8 @@ body{
     margin: auto;   
     align-items: center;
     background: linear-gradient(to right, rgb(177, 146, 109) 50%, rgb(238, 177, 103) 50%);
-}
 
+}
 .btnHeader{
     height: fit-content;
     width: 50%;
@@ -26,10 +25,10 @@ body{
 
 .task{
     background: rgb(189, 169, 145);
-    box-shadow: 7px 7px aqua;
+    box-shadow: 7px 7px rgb(81, 85, 85);
     padding-left: 3%;
     margin: auto;
-    width: 80%;
+    width: 500px;
     display: flex;
     margin-top: 15px;
     height: 40px;
