@@ -3,7 +3,7 @@ Vue.createApp({
         return{
             valueInput: '',
             needDoList: [],
-            newOrDone: true
+            newOrDone: true,
 
         };
     },
@@ -19,8 +19,15 @@ Vue.createApp({
                 status: false
             });
             this.valueInput = '';
-            
+            this.saveListToStorage()
         },
+
+        saveListToStorage(){
+            const parsed = JSON.stringify(this.needDoList);
+            localStorage.setItem('needDoList', parsed);
+
+        },
+        
 
         newPressed(){
             this.newOrDone = true;
@@ -40,12 +47,17 @@ Vue.createApp({
             else{
                 this.needDoList[index].status = false
             }
-        }
-
-       
-
-
-
-
+            this.saveListToStorage()
+        },
+    },
+    mounted(){
+        if (localStorage.getItem('needDoList')) {
+            try {
+              this.needDoList = JSON.parse(localStorage.getItem('needDoList'));
+            } catch(e) {
+              localStorage.removeItem('needDoList');
+            }
+        };
     }
+
 }).mount('#app')
