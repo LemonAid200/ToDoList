@@ -25,7 +25,7 @@
         <div v-if="newOrDone">
 
             <div class="task">       
-                <input type="text" style="height: 70%; width: 80%;" v-bind:value="valueInput" v-on:input="handlyInput" v-on:keypress.enter="addTask">
+                <input type="text" style="height: fit-content; width: 80%;" v-bind:value="valueInput" v-on:input="handlyInput" v-on:keypress.enter="addTask">
                 <button class="btnTask" v-on:click="addTask">Add</button>
             </div>
 
